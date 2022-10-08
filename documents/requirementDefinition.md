@@ -149,7 +149,7 @@
 
 サーバは、オンプレミスでの稼働を保証するが、クラウド(Amazon EC2)でも稼働できる予想である。
 
-![システム構成図](systemConfiguration\systemConfiguration.png)
+![システム構成図](systemConfiguration/systemConfiguration.png)
 
 ## 工程計画
 
