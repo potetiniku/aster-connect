@@ -1,0 +1,15 @@
+@startuml
+
+
+
+[Component1]
+[Component2]
+[Component23]
+
+
+[Component1] -u-> [Component23]: up\raa
+[Component1] <-- [Component23]:download data
+
+[Component2] -u-> [Component23]:aaa
+
+@enduml

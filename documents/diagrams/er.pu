@@ -1,0 +1,17 @@
+@startuml er
+hide empty members
+
+entity テーブル1 {
+    + 商品ID [PK]
+	商品コード
+}
+
+entity テーブル2 {
+    + 入庫ID [PK]
+    # 商品ID [FK]
+	日時
+}
+
+テーブル1 ||--o{ テーブル2
+
+@enduml

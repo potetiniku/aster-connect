@@ -1,0 +1,15 @@
+@startuml supporter
+left to right direction
+
+actor サポータ as supporter
+
+rectangle コンソール {
+	supporter --> (ライブを開始する)
+	supporter --> (ライブを終了する)
+	supporter --> (ミニゲームを進行する)
+	supporter --> (ガヤSEを再生する)
+	supporter --> (ユーザに電話をかける)
+	supporter --> (オートカメラの\r位置を切り替える)
+}
+
+@enduml

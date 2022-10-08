@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="412px" preserveAspectRatio="none" style="width:326px;height:412px;background:#FFFFFF;" version="1.1" viewBox="0 0 326 412" width="326px" zoomAndPan="magnify"><defs/><g><!--MD5=[37a79fdf2764ad97a5e9a413a5967e3f]
+cluster コンソール--><g id="cluster_コンソール"><rect fill="none" height="399" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="214" x="106" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="75" x="175.5" y="23.5332">コンソール</text></g><g id="elem_ライブを開始する"><ellipse cx="213.0785" cy="61.2157" fill="#F1F1F1" rx="79.0785" ry="18.2157" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="155.6751" y="65.3395">ライブを開始する</text></g><g id="elem_ライブを終了する"><ellipse cx="213.0785" cy="132.2157" fill="#F1F1F1" rx="79.0785" ry="18.2157" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="155.6751" y="136.3395">ライブを終了する</text></g><g id="elem_ミニゲームを進行する"><ellipse cx="212.8297" cy="206.0659" fill="#F1F1F1" rx="90.8297" ry="20.5659" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="142.8297" y="209.7945">ミニゲームを進行する</text></g><g id="elem_ガヤSEを再生する"><ellipse cx="213.1887" cy="280.0377" fill="#F1F1F1" rx="80.6887" ry="18.5377" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="154.5015" y="283.9661">ガヤSEを再生する</text></g><g id="elem_オートカメラの\r位置を切り替える"><ellipse cx="213.1812" cy="361.9034" fill="#F1F1F1" rx="90.6812" ry="27.9034" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="164.1812" y="356.8272">オートカメラの</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="157.1812" y="374.4366">位置を切り替える</text></g><!--MD5=[c505f55537038c7468480828145a0cfd]
+entity supporter--><g id="elem_supporter"><ellipse cx="34" cy="175.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M34,183.5 L34,210.5 M21,191.5 L47,191.5 M34,210.5 L21,225.5 M34,210.5 L47,225.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="6" y="241.5332">サポータ</text></g><!--MD5=[7f2fa62b54056c1bb063ef1e6d33091c]
+link supporter to ライブを開始する--><g id="link_supporter_ライブを開始する"><path d="M48.82,166.88 C59.02,143.25 75.14,114.27 98,96 C111.12,85.52 127.37,78.16 143.45,73.01 " fill="none" id="supporter-to-ライブを開始する" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="148.43,71.48,138.6519,70.3016,143.6508,72.9494,141.003,77.9483,148.43,71.48" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f55210511e72aa6c7ee11b73eee5fa79]
+link supporter to ライブを終了する--><g id="link_supporter_ライブを終了する"><path d="M62.14,187.7 C72.98,180.91 85.78,173.52 98,168 C116.07,159.84 136.52,152.75 155.07,147.08 " fill="none" id="supporter-to-ライブを終了する" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="160.25,145.52,150.4751,144.3149,155.4668,146.9764,152.8053,151.968,160.25,145.52" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0b27ca5a8865c5d62115d41e2479d024]
+link supporter to ミニゲームを進行する--><g id="link_supporter_ミニゲームを進行する"><path d="M62.27,206 C77.2,206 96.69,206 116.64,206 " fill="none" id="supporter-to-ミニゲームを進行する" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="121.72,206,112.72,202,116.72,206,112.72,210,121.72,206" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[49f64a11eafb1525d5b0434c04b5a36e]
+link supporter to ガヤSEを再生する--><g id="link_supporter_ガヤSEを再生する"><path d="M62.14,224.3 C72.98,231.09 85.78,238.48 98,244 C115.72,252.01 135.74,258.97 154,264.59 " fill="none" id="supporter-to-ガヤSEを再生する" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="159.1,266.14,151.6553,259.692,154.3168,264.6836,149.3251,267.3451,159.1,266.14" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a10096cd99c66856e4d6a5d5d200a9ff]
+link supporter to オートカメラの\r位置を切り替える--><g id="link_supporter_オートカメラの\r位置を切り替える"><path d="M49.73,245.25 C60.16,268.48 76.19,296.98 98,316 C110.17,326.61 125.11,334.97 140.11,341.48 " fill="none" id="supporter-to-オートカメラの\r位置を切り替える" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="144.77,343.44,138.0355,336.2535,140.164,341.4946,134.9228,343.6231,144.77,343.44" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a3ade080c49562419fd6ab12dfb80864]
+@startuml supporter
+left to right direction
+
+actor サポータ as supporter
+
+rectangle コンソール {
+	supporter - -> (ライブを開始する)
+	supporter - -> (ライブを終了する)
+	supporter - -> (ミニゲームを進行する)
+	supporter - -> (ガヤSEを再生する)
+	supporter - -> (オートカメラの\r位置を切り替える)
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 02:01:30 JST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS932
+Language: ja
+Country: JP
+--></g></svg>

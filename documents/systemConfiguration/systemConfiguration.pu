@@ -1,0 +1,33 @@
+@startuml systemConfiguration
+
+node server as "サーバ" {
+    component アプリ
+}
+
+database db as "DBサーバ"
+
+node console as "管理用PC1" {
+    component 管理用ソフト
+}
+
+node poseAi as "管理用PC2" {
+    component PoseAI搭載アプリ
+}
+
+node hmd as "Oculus Quest" {
+    component VRアプリ
+}
+
+node client as "クライアント" {
+    component クライアント用アプリ
+}
+
+server -l-> db : クラッカー
+
+console -u- server : SE指示
+poseAi -u- server : アニメーション情報
+hmd -u- server : 奥行位置
+
+server -r-> client : アニメーション\rプライズ出現
+
+@enduml

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="314px" preserveAspectRatio="none" style="width:364px;height:314px;background:#FFFFFF;" version="1.1" viewBox="0 0 364 314" width="364px" zoomAndPan="magnify"><defs/><g><!--MD5=[c1c55dabf55211ee46389f3734b8905f]
+cluster プレゼンタ端末--><g id="cluster_プレゼンタ端末"><rect fill="none" height="301" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="238" x="120" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="105" x="186.5" y="23.5332">プレゼンタ端末</text></g><g id="elem_移動する"><ellipse cx="238.8032" cy="59.0087" fill="#F1F1F1" rx="51.3032" ry="15.5087" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="207.8032" y="63.5253">移動する</text></g><g id="elem_コメントを見る"><ellipse cx="239.2427" cy="127.1485" fill="#F1F1F1" rx="73.7427" ry="17.1485" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="187.2427" y="131.6651">コメントを見る</text></g><g id="elem_エールを見る"><ellipse cx="238.7688" cy="195.1538" fill="#F1F1F1" rx="68.7688" ry="16.1538" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="193.7688" y="199.6704">エールを見る</text></g><g id="elem_オブジェクトを持ち上げる"><ellipse cx="239.1901" cy="269.038" fill="#F1F1F1" rx="103.1901" ry="23.038" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="155.1901" y="272.7665">オブジェクトを持ち上げる</text></g><!--MD5=[c138a5d2a99293655cce4cba8cc4225f]
+entity presenter--><g id="elem_presenter"><ellipse cx="41" cy="130.5" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M41,138.5 L41,165.5 M28,146.5 L54,146.5 M41,165.5 L28,180.5 M41,165.5 L54,180.5 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="6" y="196.5332">プレゼンタ</text></g><!--MD5=[59be503295e02baea068ec1a1e5c3f78]
+link presenter to 移動する--><g id="link_presenter_移動する"><path d="M74.58,121.89 C85.48,110.86 98.35,99.76 112,92 C134.75,79.06 162.7,71.07 186.48,66.21 " fill="none" id="presenter-to-移動する" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="191.49,65.22,181.884,63.0466,186.5855,66.1923,183.4397,70.8938,191.49,65.22" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[e38de3f1c80bab2de4b69d6c65d8c23e]
+link presenter to コメントを見る--><g id="link_presenter_コメントを見る"><path d="M76.14,155.08 C103.21,150.38 141.79,143.69 174.5,138.02 " fill="none" id="presenter-to-コメントを見る" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="179.69,137.11,170.1433,134.689,174.762,137.9552,171.4957,142.5738,179.69,137.11" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[76b53472948b8b18d8788317843bf2c0]
+link presenter to エールを見る--><g id="link_presenter_エールを見る"><path d="M76.14,166.92 C104.15,171.78 144.47,178.78 177.87,184.57 " fill="none" id="presenter-to-エールを見る" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="183.17,185.49,174.9885,180.0071,178.2439,184.6333,173.6177,187.8888,183.17,185.49" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[bc074df40647f3a7d21fc2246f137c81]
+link presenter to オブジェクトを持ち上げる--><g id="link_presenter_オブジェクトを持ち上げる"><path d="M76.1,199.53 C86.78,209.88 99.15,220.31 112,228 C127.61,237.34 145.6,244.82 163,250.7 " fill="none" id="presenter-to-オブジェクトを持ち上げる" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="167.89,252.31,160.5988,245.6889,163.1423,250.7417,158.0895,253.2852,167.89,252.31" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[705e062731012ed69fb063855e7303b3]
+@startuml presenter
+left to right direction
+
+actor プレゼンタ as presenter
+
+rectangle プレゼンタ端末 {
+	presenter - -> (移動する)
+	presenter - -> (コメントを見る)
+	presenter - -> (エールを見る)
+	presenter - -> (オブジェクトを持ち上げる)
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 02:01:30 JST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS932
+Language: ja
+Country: JP
+--></g></svg>

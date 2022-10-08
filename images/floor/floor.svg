@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1024"
+   height="1024"
+   viewBox="0 0 270.93332 270.93333"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="floor.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.40869141"
+     inkscape:cx="226.33214"
+     inkscape:cy="550.53763"
+     inkscape:window-width="1360"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path499"
+       style="opacity:1;fill:#407dff;stroke-width:10.6703;stroke-linecap:round;paint-order:stroke fill markers;stop-color:#000000"
+       d="M 270.93332,135.46666 A 135.46666,135.46666 0 0 1 135.46666,270.93332 135.46666,135.46666 0 0 1 0,135.46666 135.46666,135.46666 0 0 1 135.46666,0 135.46666,135.46666 0 0 1 270.93332,135.46666 Z" />
+    <g
+       aria-label="＊"
+       id="text233"
+       style="font-size:270.933px;line-height:1.25;font-family:'Poiret One';-inkscape-font-specification:'Poiret One';fill:#0052ff;fill-opacity:1;stroke-width:0.317499"
+       transform="matrix(0.83333336,0,0,0.83333336,23.362429,22.950529)">
+      <path
+         d="M 128.60389,133.2336 59.993344,111.24065 q -16.165773,-5.26329 -16.165773,-16.165777 0,-9.21074 5.639222,-15.037921 4.887327,-5.07531 10.902499,-5.07531 7.894912,0 16.165773,7.33099 l 53.948565,46.993528 1.50379,-0.75189 -16.16577,-70.490298 q -0.7519,-3.00757 -0.7519,-8.08289 0,-16.54172 18.42146,-16.54172 18.04552,0 18.04552,16.91768 0,2.0677 -0.7519,7.70693 l -14.474,70.866238 1.50379,0.37595 54.13654,-47.745418 q 8.83479,-7.70694 15.9778,-7.70694 7.331,0 12.78224,6.76706 4.51138,5.8272 4.51138,12.97021 0,11.466428 -15.78983,16.541728 l -70.11434,23.1208 v 1.50381 l 68.04662,25.00056 q 17.10565,6.20314 17.10565,18.04549 0,7.70695 -5.63922,13.34617 -4.88732,4.69936 -11.27846,4.69936 -8.64679,0 -17.10563,-8.45883 l -52.63275,-48.49732 -1.50379,0.75188 14.474,71.2422 q 0.7519,5.63922 0.7519,7.70694 0,18.04549 -17.66957,18.04549 -18.04551,0 -18.04551,-17.66955 0,-3.38352 1.12784,-8.08288 l 15.03793,-71.2422 -1.50379,-0.75188 -52.068824,47.74541 q -8.834783,8.45884 -17.669565,8.45884 -7.143018,0 -12.406292,-6.57909 -4.511378,-5.63923 -4.511378,-12.59427 0,-11.27844 16.91767,-17.29361 l 67.858649,-23.87271 z"
+         style="font-family:'游明朝';-inkscape-font-specification:'游明朝';fill:#0052ff;fill-opacity:1;stroke-width:0.451138"
+         id="path397" />
+    </g>
+    <path
+       style="color:#000000;fill:#bfd3ff;stroke-linecap:round;-inkscape-stroke:none;paint-order:stroke fill markers"
+       d="M 135.4668,16.933594 C 70.027787,16.933594 16.933594,70.027787 16.933594,135.4668 16.933594,200.90581 70.027787,254 135.4668,254 200.90581,254 254,200.90581 254,135.4668 254,70.027787 200.90581,16.933594 135.4668,16.933594 Z m 0,4.232422 c 63.15115,0 114.30078,51.149632 114.30078,114.300784 0,63.15115 -51.14963,114.30078 -114.30078,114.30078 -63.151152,0 -114.300784,-51.14963 -114.300784,-114.30078 0,-63.151152 51.149632,-114.300784 114.300784,-114.300784 z"
+       id="path1107" />
+  </g>
+</svg>

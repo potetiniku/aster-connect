@@ -1,0 +1,12 @@
+Bouncy Castle
+MessagePack
+miniJson
+msgpack-unity
+libopus
+UnityChanSpringBone
+Noto Emoji
+emoji-data
+VRM/VRMShader
+SDFTextureGenerator.cs
+Adjust Unity SDK
+SimpleJSON

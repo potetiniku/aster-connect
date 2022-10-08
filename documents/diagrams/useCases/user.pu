@@ -1,0 +1,21 @@
+@startuml user
+left to right direction
+
+actor ユーザ as user
+
+rectangle クライアント {
+	user --> (サーバ情報を設定する)
+	user --> (ユーザ名を設定する)
+	user --> (ライセンス表記を見る)
+	user --> (コメントを送信する)
+	user --> (エールを贈る)
+	user --> (アスタメモリの量を見る)
+	user --> (ランキングを見る)
+	user --> (ミニゲームを遊ぶ)
+	user --> (スクリーンショットを撮る)
+	user --> (通話対戦に出る)
+	user --> (プレゼンタを着せ替える)
+	user --> (バズクラッカーを押す)
+}
+
+@enduml
