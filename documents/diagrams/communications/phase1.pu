@@ -1,0 +1,15 @@
+@startuml phase1
+
+component サーバ as server
+component コンソール as console
+component コントローラ as controller
+' component "Pose Cam" as poseAi
+component クライアント as client
+
+' server <-u- poseAi : 姿勢情報
+' →\n接続要求\n←\n接続応答
+server <-l- client : 接続要求
+server <-r- controller : 接続要求
+server <-d- console : ライブ開始命令\nライブ終了命令
+
+@enduml
