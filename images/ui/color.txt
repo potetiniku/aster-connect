@@ -1,2 +1,0 @@
-JIS安全色を採用する。
-http://safetycolor.jp/shiteichi/
