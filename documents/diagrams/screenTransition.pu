@@ -1,0 +1,25 @@
+@startuml screenTransition
+title 画面遷移図 (クライアント)
+hide empty description
+
+state タイトル画面 : ユーザ名入力欄
+state タイトル画面 {
+	state サーバ情報設定画面 : サーバ情報入力欄
+}
+
+state ライブ画面 : ステージ
+state ライブ画面 : コメント
+state ライブ画面 {
+	state エール一覧 : 消費エメトストーン数
+	state エール一覧 {
+		state エール確認画面 : エールのモデル
+		state エール確認画面 : 消費エメトストーン数
+		state エール確認画面
+	}
+}
+
+[*] -r-> タイトル画面
+ライブ画面 -l-> タイトル画面 : 退出する
+タイトル画面 -r-> ライブ画面 : 参加する
+
+@enduml
