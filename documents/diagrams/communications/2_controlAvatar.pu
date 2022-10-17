@@ -1,0 +1,12 @@
+@startuml 2_controlAvatar
+
+component サーバ as server
+component コントローラ as controller
+component "Pose Cam" as poseAi
+component クライアント as client
+
+server <-u- poseAi : プレゼンタの姿勢
+server -l-> client : アバターの位置/姿勢
+server <-r- controller : プレゼンタの位置
+
+@enduml

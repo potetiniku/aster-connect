@@ -1,0 +1,10 @@
+@startuml 6_grabObject
+
+component サーバ as server
+component コントローラ as controller
+component クライアント as client
+
+server -l-> client : 掴まれたオブジェクトのID/位置
+server <-r- controller : 掴まれたオブジェクトのID/位置
+
+@enduml

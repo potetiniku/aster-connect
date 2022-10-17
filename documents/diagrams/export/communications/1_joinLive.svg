@@ -5,24 +5,8 @@ entity controller--><g id="elem_controller"><rect fill="#F1F1F1" height="47.6094
 entity client--><g id="elem_client"><rect fill="#F1F1F1" height="47.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="124" x="7" y="7"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="111" y="12"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="109" y="14"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="109" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="22" y="41.5332">クライアント</text></g><!--MD5=[6e668341980b2b6f3174a2b130bbe9df]
 link client to server--><g id="link_client_server"><path d="M131.07,31 C158.18,31 189.42,31 214.48,31 " fill="none" id="client-to-server" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="219.73,31,210.73,27,214.73,31,210.73,35,219.73,31" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="149.5" y="24.4951">接続要求</text></g><!--MD5=[73c92b3cd67006b81fc31691cb946df0]
 reverse link server to controller--><g id="link_server_controller"><path d="M307.43,31 C332.43,31 363.62,31 390.7,31 " fill="none" id="server-backto-controller" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="302.19,31,311.19,35,307.19,31,311.19,27,302.19,31" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="320.5" y="24.4951">接続要求</text></g><!--MD5=[0a11d7c1ea68b753aa7833d3ef802406]
-reverse link server to console--><g id="link_server_console"><path d="M261,60.16 C261,86.23 261,124.52 261,148.85 " fill="none" id="server-backto-console" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="261,55.12,257,64.12,261,60.12,265,64.12,261,55.12" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="262" y="99.4951">ライブ開始命令</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="262" y="115.8467">ライブ終了命令</text></g><!--MD5=[211ee010ede5a8ed6032f8981557cf91]
-@startuml phase1
-
-component サーバ as server
-component コンソール as console
-component コントローラ as controller
-' component "Pose Cam" as poseAi
-component クライアント as client
-
-' server <-u- poseAi : 姿勢情報
-' →\n接続要求\n←\n接続応答
-server <-l- client : 接続要求
-server <-r- controller : 接続要求
-server <-d- console : ライブ開始命令\nライブ終了命令
-
-@enduml
-
-@startuml phase1
+reverse link server to console--><g id="link_server_console"><path d="M261,60.16 C261,86.23 261,124.52 261,148.85 " fill="none" id="server-backto-console" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="261,55.12,257,64.12,261,60.12,265,64.12,261,55.12" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="262" y="99.4951">ライブ開始命令</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="262" y="115.8467">ライブ終了命令</text></g><!--MD5=[0f68e2f4ba344da72d1f1289dd983119]
+@startuml 1_joinLive
 
 component サーバ as server
 component コンソール as console

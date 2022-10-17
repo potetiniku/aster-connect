@@ -1,0 +1,11 @@
+@startuml 5_giveYell
+
+component サーバ as server
+component コントローラ as controller
+component クライアント as client
+
+server <-l- client : ユーザ名\nエールの種類
+server -l-> client : エール出現情報
+server -r-> controller : エール出現情報
+
+@enduml

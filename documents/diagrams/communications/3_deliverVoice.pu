@@ -1,0 +1,10 @@
+@startuml 3_deliverVoice
+
+component コントローラ as controller
+component Vivox as vivox
+component クライアント as client
+
+vivox -l-> client : プレゼンタの声
+vivox <-r- controller : プレゼンタの声
+
+@enduml

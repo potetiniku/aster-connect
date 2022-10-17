@@ -1,0 +1,10 @@
+@startuml 4_sendComment
+
+component サーバ as server
+component コントローラ as controller
+component クライアント as client
+
+server <-l-> client : コメント情報
+server -r-> controller : コメント情報
+
+@enduml
