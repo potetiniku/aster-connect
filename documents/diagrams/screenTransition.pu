@@ -3,10 +3,7 @@ title 画面遷移図 (クライアント)
 hide empty description
 
 state タイトル画面 : ユーザ名入力欄
-state タイトル画面 {
-	state サーバ情報設定画面 : サーバ情報入力欄
-}
-
+state タイトル画面 : サーバIPアドレス入力欄
 state 待機画面 : コメント
 
 state ライブ画面 : ステージ
