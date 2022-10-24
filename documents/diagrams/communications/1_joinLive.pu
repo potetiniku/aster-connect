@@ -5,8 +5,10 @@ component コンソール as console
 component コントローラ as controller
 component クライアント as client
 
-server <-l- client : 接続要求
-server <-r- controller : 接続要求
+server <-l- client : 状態確認
+server -l-> client : ライブ画面遷移指示\nタイトル画面遷移指示
+server <-r- controller : 状態確認
+server -r-> controller : タイトル画面遷移指示
 server <-d- console : ライブ開始命令\nライブ終了命令
 
 @enduml
