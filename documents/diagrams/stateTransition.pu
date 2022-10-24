@@ -1,0 +1,15 @@
+@startuml stateTransition
+title 状態遷移図 (サーバ)
+hide empty description
+
+' 各サブシステムに対応する状態がある
+state 停止中
+state 準備中
+state ライブ中
+
+[*] -r-> 停止中
+停止中 -d-> 準備中 : ライブ準備命令
+準備中 -l-> ライブ中 : ライブ開始命令
+ライブ中 -u-> 停止中 : ライブ終了命令
+
+@enduml
