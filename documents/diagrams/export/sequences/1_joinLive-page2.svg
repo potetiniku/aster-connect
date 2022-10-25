@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="481px" preserveAspectRatio="none" style="width:1012px;height:481px;background:#FFFFFF;" version="1.1" viewBox="0 0 1012 481" width="1012px" zoomAndPan="magnify"><defs/><g><rect fill="none" height="27.6094" id="_title" style="stroke:none;stroke-width:1.0;" width="85" x="459.5" y="10"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="75" x="464.5" y="29.5332">ライブ終了</text><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="29" x2="29" y1="121.2188" y2="399.0313"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="208" x2="208" y1="121.2188" y2="399.0313"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="364" x2="364" y1="121.2188" y2="399.0313"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="521" x2="521" y1="121.2188" y2="399.0313"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="700" x2="700" y1="121.2188" y2="399.0313"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="790" x2="790" y1="121.2188" y2="399.0313"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="969" x2="969" y1="121.2188" y2="399.0313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="5" y="118.1426">ユーザ</text><ellipse cx="29" cy="52.1094" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M29,60.1094 L29,87.1094 M16,68.1094 L42,68.1094 M29,87.1094 L16,102.1094 M29,87.1094 L42,102.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="5" y="412.5645">ユーザ</text><ellipse cx="29" cy="424.1406" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M29,432.1406 L29,459.1406 M16,440.1406 L42,440.1406 M29,459.1406 L16,474.1406 M29,459.1406 L42,474.1406 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="159" y="88.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="166" y="110.1426">クライアント</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="159" y="398.0313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="166" y="419.5645">クライアント</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="336" y="88.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="343" y="110.1426">サーバ</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="336" y="398.0313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="343" y="419.5645">サーバ</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="472" y="88.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="479" y="110.1426">コントローラ</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="472" y="398.0313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="479" y="419.5645">コントローラ</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="662" y="118.1426">プレゼンタ</text><ellipse cx="700" cy="52.1094" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M700,60.1094 L700,87.1094 M687,68.1094 L713,68.1094 M700,87.1094 L687,102.1094 M700,87.1094 L713,102.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="662" y="412.5645">プレゼンタ</text><ellipse cx="700" cy="424.1406" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M700,432.1406 L700,459.1406 M687,440.1406 L713,440.1406 M700,459.1406 L687,474.1406 M700,459.1406 L713,474.1406 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="84" x="748" y="88.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="755" y="110.1426">コンソール</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="84" x="748" y="398.0313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="755" y="419.5645">コンソール</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="938" y="118.1426">サポータ</text><ellipse cx="969" cy="52.1094" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M969,60.1094 L969,87.1094 M956,68.1094 L982,68.1094 M969,87.1094 L956,102.1094 M969,87.1094 L982,102.1094 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="938" y="412.5645">サポータ</text><ellipse cx="969" cy="424.1406" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M969,432.1406 L969,459.1406 M956,440.1406 L982,440.1406 M969,459.1406 L956,474.1406 M969,459.1406 L982,474.1406 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="0" x2="1005" y1="132.2188" y2="132.2188"/><polygon fill="#181818" points="801,151.5703,791,155.5703,801,159.5703,797,155.5703" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="795" x2="968" y1="155.5703" y2="155.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="807" y="150.7139">「ライブを終了」を押下</text><polygon fill="#181818" points="375,181.9219,365,185.9219,375,189.9219,371,185.9219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="369" x2="789" y1="185.9219" y2="185.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="91" x="381" y="181.0654">ライブ終了命令</text><line style="stroke:#181818;stroke-width:1.0;" x1="364" x2="406" y1="216.2734" y2="216.2734"/><line style="stroke:#181818;stroke-width:1.0;" x1="406" x2="406" y1="216.2734" y2="229.2734"/><line style="stroke:#181818;stroke-width:1.0;" x1="365" x2="406" y1="229.2734" y2="229.2734"/><polygon fill="#181818" points="375,225.2734,365,229.2734,375,233.2734,371,229.2734" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="371" y="211.417">「停止中」状態に遷移</text><polygon fill="#181818" points="778,255.625,788,259.625,778,263.625,782,259.625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="364" x2="784" y1="259.625" y2="259.625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52" x="371" y="254.7686">処理結果</text><polygon fill="#181818" points="219,285.9766,209,289.9766,219,293.9766,215,289.9766" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="213" x2="363" y1="289.9766" y2="289.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="225" y="285.1201">タイトル画面表示命令</text><polygon fill="#181818" points="40,316.3281,30,320.3281,40,324.3281,36,320.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="34" x2="207" y1="320.3281" y2="320.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="117" x="46" y="315.4717">タイトル画面を表示</text><polygon fill="#181818" points="509,346.6797,519,350.6797,509,354.6797,513,350.6797" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="364" x2="515" y1="350.6797" y2="350.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="371" y="345.8232">タイトル画面表示命令</text><polygon fill="#181818" points="688,377.0313,698,381.0313,688,385.0313,692,381.0313" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="521" x2="694" y1="381.0313" y2="381.0313"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="117" x="528" y="376.1748">タイトル画面を表示</text><!--MD5=[1cd86ef0e3052d592dbf079007a4c1d7]
+@startuml 1_joinLive
+
+title ライブ開始
+
+actor ユーザ as user
+participant クライアント as client
+participant サーバ as server
+participant コントローラ as controller
+actor プレゼンタ as presenter
+participant コンソール as console
+actor サポータ as supporter
+
+supporter -> console : サーバのIPアドレスを入力
+console -> console : 接続先IPアドレスを更新
+supporter -> console : 「ライブを準備」を押下
+console -> server : ライブ準備命令
+server -> server : 「準備中」状態に遷移
+server - -> console : 処理結果
+
+presenter -> controller : サーバのIPアドレスを入力
+controller -> controller : 接続先IPアドレスを更新
+presenter -> controller : 「接続する」を押下
+controller -> server : サーバの状態を確認
+server - -> controller : 現在の状態
+controller -> server : ステージに接続
+controller - -> presenter : ライブ画面を表示
+
+user -> client : ユーザ名を入力
+user -> client : サーバのIPアドレスを入力
+client -> client : 接続先IPアドレスを更新
+user -> client : 「参加する」を押下
+client -> server : サーバの状態を確認
+server - -> client : 現在の状態
+client -> server : 待機所に接続
+client -> user : 待機画面を表示
+
+supporter -> console : 「ライブを開始」を押下
+console -> server : ライブ開始命令
+server -> server : 「ライブ中」状態に遷移
+server - -> console : 処理結果
+server -> client : ライブ画面表示命令
+client -> user : ライブ画面を表示
+
+newpage ライブ終了
+
+supporter -> console : 「ライブを終了」を押下
+console -> server : ライブ終了命令
+server -> server : 「停止中」状態に遷移
+server - -> console : 処理結果
+server -> client : タイトル画面表示命令
+client -> user : タイトル画面を表示
+server -> controller : タイトル画面表示命令
+controller -> presenter : タイトル画面を表示
+@enduml
+
+PlantUML version 1.2022.7(Tue Aug 23 02:01:30 JST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: MS932
+Language: ja
+Country: JP
+--></g></svg>

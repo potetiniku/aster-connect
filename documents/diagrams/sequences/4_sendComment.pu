@@ -1,0 +1,20 @@
+@startuml 4_sendComment
+
+title コメント送信
+
+actor ユーザ as user
+participant クライアント as client
+participant サーバ as server
+participant コントローラ as controller
+actor プレゼンタ as presenter
+
+user -> client : 「コメントを書く」を押下
+client --> user : 仮想キーボードを表示
+user -> client : コメントを入力して確定
+client --> user : 仮想キーボードを消去
+client -> server : ユーザ名と\nコメントを送信
+server -> client : コメント追加命令
+client -> user : コメントを表示
+server -> controller : コメント追加命令
+controller -> presenter : コメントを表示
+@enduml

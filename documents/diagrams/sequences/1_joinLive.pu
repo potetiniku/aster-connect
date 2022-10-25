@@ -1,0 +1,54 @@
+@startuml 1_joinLive
+
+title ライブ開始
+
+actor ユーザ as user
+participant クライアント as client
+participant サーバ as server
+participant コントローラ as controller
+actor プレゼンタ as presenter
+participant コンソール as console
+actor サポータ as supporter
+
+supporter -> console : サーバのIPアドレスを入力
+console -> console : 接続先IPアドレスを更新
+supporter -> console : 「ライブを準備」を押下
+console -> server : ライブ準備命令
+server -> server : 「準備中」状態に遷移
+server --> console : 処理結果
+
+presenter -> controller : サーバのIPアドレスを入力
+controller -> controller : 接続先IPアドレスを更新
+presenter -> controller : 「接続する」を押下
+controller -> server : サーバの状態を確認
+server --> controller : 現在の状態
+controller -> server : ステージに接続
+controller --> presenter : ライブ画面を表示
+
+user -> client : ユーザ名を入力
+user -> client : サーバのIPアドレスを入力
+client -> client : 接続先IPアドレスを更新
+user -> client : 「参加する」を押下
+client -> server : サーバの状態を確認
+server --> client : 現在の状態
+client -> server : 待機所に接続
+client -> user : 待機画面を表示
+
+supporter -> console : 「ライブを開始」を押下
+console -> server : ライブ開始命令
+server -> server : 「ライブ中」状態に遷移
+server --> console : 処理結果
+server -> client : ライブ画面表示命令
+client -> user : ライブ画面を表示
+
+newpage ライブ終了
+
+supporter -> console : 「ライブを終了」を押下
+console -> server : ライブ終了命令
+server -> server : 「停止中」状態に遷移
+server --> console : 処理結果
+server -> client : タイトル画面表示命令
+client -> user : タイトル画面を表示
+server -> controller : タイトル画面表示命令
+controller -> presenter : タイトル画面を表示
+@enduml
