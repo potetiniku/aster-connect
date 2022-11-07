@@ -28,13 +28,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="0.25"
-     inkscape:cx="-76"
-     inkscape:cy="548"
-     inkscape:window-width="1360"
+     inkscape:zoom="0.5"
+     inkscape:cx="547"
+     inkscape:cy="362"
+     inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-y="1072"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg5" />
   <defs
@@ -70,11 +70,13 @@
        y2="203.20055"
        gradientUnits="userSpaceOnUse" />
   </defs>
-  <path
-     id="circle347"
-     style="display:inline;fill:#ffff80;fill-opacity:1;stroke-width:2.39837;stroke-linecap:round;stroke-opacity:0.5;paint-order:stroke fill markers;stop-color:#000000"
-     d="M 135.46666,0 A 135.46666,135.46666 0 0 0 0,135.46666 135.46666,135.46666 0 0 0 135.46666,270.93333 135.46666,135.46666 0 0 0 270.93333,135.46666 135.46666,135.46666 0 0 0 135.46666,0 Z m 0,33.866666 a 101.6,101.6 0 0 1 101.6,101.599994 101.6,101.6 0 0 1 -101.6,101.6 101.6,101.6 0 0 1 -101.599994,-101.6 A 101.6,101.6 0 0 1 135.46666,33.866666 Z"
-     inkscape:label="o" />
+  <circle
+     style="fill:none;fill-opacity:0.66;stroke:#ffff80;stroke-width:32.8082"
+     id="path292"
+     cx="135.46666"
+     cy="135.46666"
+     inkscape:label="o"
+     r="118.53335" />
   <path
      id="path340"
      style="fill:url(#linearGradient5544);fill-opacity:1;stroke-width:2.44121;stroke-linecap:round;stroke-opacity:0.5;paint-order:stroke fill markers;stop-color:#000000"
