@@ -1,0 +1,21 @@
+@startuml 2_syncPose
+
+title ライブ開始
+
+participant "アバター\n(クライアント側)" as avatar_client
+participant "アバター\n(サーバ側)" as avatar_server
+participant サーバ as server
+participant コントローラ as controller
+participant "Pose Cam" as camera
+
+controller -> server : ステージに接続
+server -> server : 通信に使用する\nポート番号を決定
+' create participant アバター だと一番右に出てきて見づらい
+server -> avatar_server : 生成
+server -> avatar_client : 生成
+avatar_client -> avatar_client : Pose Camの\nレシーバを削除
+server -> controller : 使用する\nポート番号を表示
+camera -> avatar_server : 表示されたポート番号で姿勢情報を送信
+avatar_server -> avatar_client : ポーズを同期
+
+@enduml
