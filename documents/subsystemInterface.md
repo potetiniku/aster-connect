@@ -4,18 +4,25 @@
 
 ### ソケット通信
 
-C#のソケット通信の機能を使って通信する。HTTPのように応答を受け取れるので、上りと下りがある。
+C#のソケット通信の機能による通信。HTTPのように応答を受け取れるので、上りと下りがある。
 
 - ポート: TCP/5239
 - 形式: 文字列
 
 ### NetCode for GameObjects
 
-Unityの`NetCode for GameObjects`を使って通信する。
+Unityの`NetCode for GameObjects`による通信。
 
 - ポート: UDP/5239
 - 形式: NetCode for GameObjects依存
   - おそらく中身はメソッドとその引数
+
+### Pose Cam
+
+Pose AIのPose Camによる通信。姿勢情報を伝送するために使用する。
+
+- ポート: UDP/39828以降。プレゼンタが増えるごとに1ずつ増加
+- 形式: Pose Cam依存
 
 ## コンソール→サーバ
 
@@ -46,3 +53,9 @@ Unityの`NetCode for GameObjects`を使って通信する。
 NetCode for GameObjectsを用いる。
 
 ![コミュニケーション図のようなもの](diagrams\export\communications\1_joinLive.svg)
+
+## Pose Cam→サーバ
+
+### 姿勢情報を送信する
+
+Pose Camを用いる。
