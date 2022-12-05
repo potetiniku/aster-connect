@@ -153,13 +153,13 @@
 
 ## システム構成
 
-![システム構成図](systemConfiguration/systemConfiguration.png)
+![システム構成図](../systemConfiguration/systemConfiguration.png)
 
 ## 工程計画
 
 - 2022-10-07: 要件定義書完成
 - 2022-xx-xx: 行程x完了
-- 2022-11-下旬以降: 中間発表
+- 2022-12-16: 中間発表
 - 2023-02-24以降: 発表予定
 
 ## 成果物

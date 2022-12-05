@@ -63,7 +63,7 @@ NetCode for GameObjectsを用いる。
 
 NetCode for GameObjectsを用いる。
 
-![コミュニケーション図のようなもの](diagrams\export\communications\1_joinLive.svg)
+![コミュニケーション図のようなもの](..\diagrams\export\communications\1_joinLive.svg)
 
 ## Pose Cam→サーバ
 
