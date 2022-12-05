@@ -46,6 +46,17 @@ Pose AIのPose Camによる通信。姿勢情報を伝送するために使用�
 - 下り
   - 現在のサーバの状態(停止中か、準備中か、ライブ中か)
 
+### 撮影形式を送信する
+
+NetCode for GameObjectsを用いる。  
+コントローラから以下の情報を送信する。
+
+- 撮影範囲(`Mode`): この内のいずれかを指定する(`Room Body Only`と`Use Upper Body Only`は違いがわからなかったため不使用)。
+  - 横長 (`Room`)
+  - 縦長 (`Portrait`)
+  - 椅子 (`Desktop`)
+- 上半身のみ反映する (`Use Upper Body Only`)
+
 ## サーバ→クライアント/コントローラ
 
 ### 画面遷移指示
