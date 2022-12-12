@@ -4,7 +4,7 @@
 
 ## 用語
 
-![システム構成図](..\..\systemConfiguration\systemConfiguration.png)
+![システム構成図](..\..\..\systemConfiguration\systemConfiguration.png)
 
 ### 人物
 
@@ -33,7 +33,7 @@
 
 本システムには3つの状態があります。これらの状態はコンソールを操作して切り替えます。
 
-![状態遷移図](..\..\diagrams\export\stateTransition.svg)
+![状態遷移図](..\..\..\diagrams\export\stateTransition.svg)
 
 - 停止中: サーバがコンソール以外からの通信を受け付けない状態です。
 - 準備中: 運営がライブを準備する状態です。クライアントでは待機画面(本家でいう待機所)、コントローラではステージが表示されます。
