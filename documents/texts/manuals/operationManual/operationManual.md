@@ -41,9 +41,20 @@
 
 ## 事前準備
 
-### ソフトウェアのインストール
+### アプリケーションのインストール
 
-本システムのソフトウェアを各機器にインストールしてください。
+本システムのアプリケーションを各機器にインストールしてください。  
+Windows上で動かすアプリケーションはEXEファイルを起動するだけで使用できます。
+
+| 名前                   | 役割         | OS      | 備考                                                         |
+| ---------------------- | ------------ | ------- | ------------------------------------------------------------ |
+| client_windows         | クライアント | Windows |                                                              |
+| client_android.apk     | クライアント | Android | タブレット端末でも動作しますが、表示が崩れます。             |
+| controller_windows     | コントローラ | Windows | ヘッドセットがなくても動作します。                           |
+| controller_android.apk | コントローラ | Android | Meta Quest 2などのスタンドアローン型のヘッドセットで使用してください。 |
+| dedicatedServer        | サーバ       | Windows | 起動時にVRヘッドセットが接続されていると正常に動作しない模様です。 |
+| console                | コンソール   | Windows | [NET 6.0 Desktop Runtime](https://dotnet.microsoft.com/ja-jp/download/dotnet/6.0)が必要です。 |
+| Pose Cam               | 姿勢解析     | iOS     | [App Store](https://apps.apple.com/jp/app/pose-cam/id1555012109)からインストールしてください。 |
 
 ### ネットワーク設定
 
