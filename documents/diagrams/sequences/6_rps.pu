@@ -17,5 +17,6 @@ server -> client : 結果表示
 console -> server : ランキングボード表示命令
 server -> server : 勝利者抽選
 server -> server : ランキングボード表示
+console -> server : ゲーム終了命令
 
 @enduml
