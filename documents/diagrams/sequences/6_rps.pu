@@ -1,0 +1,21 @@
+@startuml 6_rps
+
+title ミニゲーム(じゃんけん)
+
+participant クライアント as client
+participant サーバ as server
+participant コンソール as console
+
+console -> server : ゲーム開始命令
+server -> client : タイトル表示
+console -> server : ラウンド開始命令
+server -> client : 選択肢表示
+client -> client : 選択を待機
+client -> server : 選んだ手を送信
+console -> server : プレゼンタの手を送信
+server -> client : 結果表示
+console -> server : ランキングボード表示命令
+server -> server : 勝利者抽選
+server -> server : ランキングボード表示
+
+@enduml
