@@ -2,10 +2,14 @@
 
 この手順では、Aster Connectで配信されるライブを視聴する方法を説明します。
 
-## 1-A. Windowsにアプリをインストールする
+## 1. アプリをインストールする
+
+画像は古いリリースのものですが、最新版のリリースで同様に操作してください。
+
+### Windowsで視聴する場合
 
 [Aster Connectのリリースページ](https://github.com/potetiniku/aster-connect/releases)からアプリケーション (`client_windows.zip`) をダウンロードしてください。  
-2023/1/13時点では「Test Live Release」が最新版です。
+2023/2/13時点では「First Major Release」が最新版です。
 
 ![ダウンロードリンクの場所1](images/windows1.png)
 
@@ -15,23 +19,23 @@
 
 解凍したフォルダの中の`Aster Connect.exe`を実行するとアプリが起動します。
 
-## 1-B. Androidにアプリをインストールする
+### Androidで視聴する場合
 
-[Aster Connectのリリースページ](https://github.com/potetiniku/aster-connect/releases)または以下のQRコードからアプリケーション (`client_android.apk`) をダウンロードしてください。  
-2023/1/13時点では「Test Live Release」が最新版です。
-
-![ダウンロード用QRコード](images/androidQRCode.png)
+[Aster Connectのリリースページ](https://github.com/potetiniku/aster-connect/releases)からアプリケーション (`client_android.apk`) をダウンロードしてください。  
+2023/2/13時点では「First Major Release」が最新版です。
 
 ダウンロードの際に警告が出る場合がありますが、その場合は無視してください。
 
-ダウンロードが終わったら、[こちら](https://smartasw.com/archives/4011)などを参考にAPKをインストールしてください。
+ダウンロードが終わったら、[こちら](https://smartasw.com/archives/4011)などを参考にAPKファイルをインストールしてください。
 
-## 2. ライブを視聴する
+## 2. ライブに参加する
 
 アプリを起動するとタイトル画面が表示されます。
 
 ユーザー名とサーバーのIPアドレスを各欄に入力してください。  
-ユーザー名はコメントを書くときやエールを贈るときに使用されます。サーバーのIPアドレスは[こちら](https://gist.github.com/potetiniku/011ef5785ac223a9760d66c89bc69cfb)をご覧ください。
+ユーザー名はコメントを書くときやエールを贈るときに使用されます。サーバーのIPアドレスは[こちら](https://gist.github.com/potetiniku/bf0d46237ea1c38c0ccb88775ab5c1f3)をご覧ください。
 
 各項目を入力後、[参加する] を押すとライブに参加できます。  
 本家同様、待機所を設けているので早めに来ていただいても構いません。
+
+Android版ではライブに参加した際にマイクの使用許可を尋ねられますが、そのまま許可してください (実際に録音されることはありません)。
