@@ -4,16 +4,13 @@
 
 ## 1. アプリをインストールする
 
-画像は古いリリースのものですが、最新版のリリースで同様に操作してください。
+常に最新版のリリース (2023/2/21時点では`First Major Release`) をご利用ください。
 
 ### Windowsで視聴する場合
 
-[Aster Connectのリリースページ](https://github.com/potetiniku/aster-connect/releases)からアプリケーション (`client_windows.zip`) をダウンロードしてください。  
-2023/2/13時点では「First Major Release」が最新版です。
+[Aster Connectのリリースページ](https://github.com/potetiniku/aster-connect/releases/tag/first-major-release)からアプリケーション (`client_windows.zip`) をダウンロードしてください。
 
-![ダウンロードリンクの場所1](images/windows1.png)
-
-![ダウンロードリンクの場所1](images/windows2.png)
+![ダウンロードリンクの場所1](images/windows.png)
 
 ダウンロードが終わったら、ダウンロードしたZIPファイルを解凍してください。
 
@@ -21,8 +18,7 @@
 
 ### Androidで視聴する場合
 
-[Aster Connectのリリースページ](https://github.com/potetiniku/aster-connect/releases)からアプリケーション (`client_android.apk`) をダウンロードしてください。  
-2023/2/13時点では「First Major Release」が最新版です。
+[Aster Connectのリリースページ](https://github.com/potetiniku/aster-connect/releases/tag/first-major-release)からアプリケーション (`client_android.apk`) をダウンロードしてください。
 
 ダウンロードの際に警告が出る場合がありますが、その場合は無視してください。
 
