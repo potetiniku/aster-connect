@@ -1,6 +1,6 @@
 # Aster Connect 運用マニュアル
 
-このマニュアルでは、Aster Connect(以下、「本システム」といいます)でライブを開始してから終了するまでの一連の手順を解説します。
+このマニュアルでは、Aster Connect (以下、「本システム」といいます) でライブを開始してから終了するまでの一連の手順を解説します。
 
 ## 用語
 
@@ -43,16 +43,16 @@
 
 ### アプリケーションのインストール
 
-本システムのアプリケーションを各機器にインストールしてください。  
+最新版のアプリケーションを[リリースページ](https://github.com/potetiniku/aster-connect/releases)からダウンロードし、各機器にインストールしてください。一番上に表示されているリリースが最新版です。バージョンが揃っていないと正しく動かないので注意してください。  
 Windows上で動かすアプリケーションはEXEファイルを起動するだけで使用できます。
 
 | 名前                   | 役割         | OS      | 備考                                                         |
 | ---------------------- | ------------ | ------- | ------------------------------------------------------------ |
 | client_windows         | クライアント | Windows |                                                              |
-| client_android.apk     | クライアント | Android | タブレット端末でも動作しますが、表示が崩れます。             |
-| controller_windows     | コントローラ | Windows | ヘッドセットがなくても動作します。                           |
-| controller_android.apk | コントローラ | Android | Meta Quest 2などのスタンドアローン型のヘッドセットで使用してください。 |
-| dedicatedServer        | サーバ       | Windows | 起動時にVRヘッドセットが接続されていると正常に動作しない模様です。 |
+| client_android.apk     | クライアント | Android | タブレット端末でも動作しますが、表示は崩れます。             |
+| controller_windows     | コントローラ | Windows | VRデバイスがなくても動作します。                             |
+| controller_android.apk | コントローラ | Android | Meta Quest 2などで使用します。                               |
+| dedicatedServer        | サーバ       | Windows |                                                              |
 | console                | コンソール   | Windows | [NET 6.0 Desktop Runtime](https://dotnet.microsoft.com/ja-jp/download/dotnet/6.0)が必要です。 |
 | Pose Cam               | 姿勢解析     | iOS     | [App Store](https://apps.apple.com/jp/app/pose-cam/id1555012109)からインストールしてください。 |
 
